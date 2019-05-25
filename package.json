@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "echo \"Building\"",
     "test": "echo \"No test specified\""
   },
   "repository": {

@@ -1,0 +1,22 @@
+{
+  "name": "r5i-g8e-circleci-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReiiYuki/r5i-g8e-circleci-template.git"
+  },
+  "author": "reiiyuki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReiiYuki/r5i-g8e-circleci-template/issues"
+  },
+  "homepage": "https://github.com/ReiiYuki/r5i-g8e-circleci-template#readme",
+  "devDependencies": {
+    "standard-version": "^6.0.1"
+  }
+}

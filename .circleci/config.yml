@@ -27,7 +27,7 @@ jobs:
           keys:
             - v1-dependencies-{{ checksum "package.json" }}
             - v1-dependencies-
-      - npm run build
+      - run: npm run build
   
 workflows:
   version: 2
@@ -40,3 +40,5 @@ workflows:
               ignore: /.*/
             tags:
               only: /^v[0-9]+(\.[0-9]+)*$/
+          requires:
+            - test
